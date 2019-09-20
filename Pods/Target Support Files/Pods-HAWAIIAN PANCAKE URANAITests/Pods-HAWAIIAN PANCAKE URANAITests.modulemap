@@ -1,0 +1,6 @@
+framework module Pods_HAWAIIAN_PANCAKE_URANAITests {
+  umbrella header "Pods-HAWAIIAN PANCAKE URANAITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

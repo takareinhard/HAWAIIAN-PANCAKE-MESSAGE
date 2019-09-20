@@ -3,17 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E4EFD0D335A9D27B5D85BB9 /* Pods_HAWAIIAN_PANCAKE_URANAITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D535F983050C0C6950DA914D /* Pods_HAWAIIAN_PANCAKE_URANAITests.framework */; };
+		164D595958B88ACF8D6EFCCD /* Pods_HAWAIIAN_PANCAKE_URANAIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BF8B7387C2121C7035E124 /* Pods_HAWAIIAN_PANCAKE_URANAIUITests.framework */; };
+		9B14EC036AFDE1B7E21458B5 /* Pods_HAWAIIAN_PANCAKE_URANAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8988A5EE62CD78161B91E826 /* Pods_HAWAIIAN_PANCAKE_URANAI.framework */; };
 		FE21D8CD231BD4E500D75B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21D8CC231BD4E500D75B37 /* AppDelegate.swift */; };
 		FE21D8CF231BD4E500D75B37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21D8CE231BD4E500D75B37 /* ViewController.swift */; };
 		FE21D8D2231BD4E500D75B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE21D8D0231BD4E500D75B37 /* Main.storyboard */; };
-		FE21D8D4231BD4E800D75B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE21D8D3231BD4E800D75B37 /* Assets.xcassets */; };
 		FE21D8D7231BD4E800D75B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE21D8D5231BD4E800D75B37 /* LaunchScreen.storyboard */; };
 		FE21D8E2231BD4E800D75B37 /* HAWAIIAN_PANCAKE_URANAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21D8E1231BD4E800D75B37 /* HAWAIIAN_PANCAKE_URANAITests.swift */; };
 		FE21D8ED231BD4E800D75B37 /* HAWAIIAN_PANCAKE_URANAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21D8EC231BD4E800D75B37 /* HAWAIIAN_PANCAKE_URANAIUITests.swift */; };
+		FE21D8FB231BE9BB00D75B37 /* waikiki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE21D8FA231BE9BA00D75B37 /* waikiki.jpg */; };
+		FE21D903231E88A100D75B37 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21D902231E88A100D75B37 /* InputViewController.swift */; };
+		FE21D907231E902100D75B37 /* plumeria4.png in Resources */ = {isa = PBXBuildFile; fileRef = FE21D904231E902100D75B37 /* plumeria4.png */; };
+		FE21D908231E902100D75B37 /* plumeria2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE21D905231E902100D75B37 /* plumeria2.png */; };
+		FE21D909231E902100D75B37 /* plumeria3.png in Resources */ = {isa = PBXBuildFile; fileRef = FE21D906231E902100D75B37 /* plumeria3.png */; };
+		FE21D90B231E915300D75B37 /* PlumeriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21D90A231E915300D75B37 /* PlumeriaViewController.swift */; };
+		FE21D90D231E99D300D75B37 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21D90C231E99D300D75B37 /* ResultViewController.swift */; };
+		FE2B0B88232113D100CB5ACA /* Button_Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2B0B87232113D100CB5ACA /* Button_Custom.swift */; };
+		FE538EAE232E180C00E2637B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE21D8D3231BD4E800D75B37 /* Assets.xcassets */; };
+		FE538EB6232E59B800E2637B /* Plumeria4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FE538EB5232E59B800E2637B /* Plumeria4.mp4 */; };
+		FE538EBA232FBC4200E2637B /* TouchEventThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE538EB9232FBC4200E2637B /* TouchEventThroughView.swift */; };
+		FE538EBC232FF0EE00E2637B /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE538EBB232FF0EE00E2637B /* MovieViewController.swift */; };
+		FE538EC02330259400E2637B /* Plumeria3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FE538EBF2330259400E2637B /* Plumeria3.mp4 */; };
+		FE538EC2233025A000E2637B /* Plumeria2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FE538EC1233025A000E2637B /* Plumeria2.mp4 */; };
+		FE9AF71B23338B1F0051E41D /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AF71A23338B1F0051E41D /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +51,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49371A99ECB461B9AAA5C304 /* Pods-HAWAIIAN PANCAKE URANAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAWAIIAN PANCAKE URANAITests.release.xcconfig"; path = "Target Support Files/Pods-HAWAIIAN PANCAKE URANAITests/Pods-HAWAIIAN PANCAKE URANAITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DE6278298D9B4E63764EA01 /* Pods-HAWAIIAN PANCAKE URANAIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAWAIIAN PANCAKE URANAIUITests.release.xcconfig"; path = "Target Support Files/Pods-HAWAIIAN PANCAKE URANAIUITests/Pods-HAWAIIAN PANCAKE URANAIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8988A5EE62CD78161B91E826 /* Pods_HAWAIIAN_PANCAKE_URANAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAWAIIAN_PANCAKE_URANAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9668063780B992E26B093E28 /* Pods-HAWAIIAN PANCAKE URANAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAWAIIAN PANCAKE URANAIUITests.debug.xcconfig"; path = "Target Support Files/Pods-HAWAIIAN PANCAKE URANAIUITests/Pods-HAWAIIAN PANCAKE URANAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAC2DFD94DEFC71518DC7EAD /* Pods-HAWAIIAN PANCAKE URANAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAWAIIAN PANCAKE URANAITests.debug.xcconfig"; path = "Target Support Files/Pods-HAWAIIAN PANCAKE URANAITests/Pods-HAWAIIAN PANCAKE URANAITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA03B2533F728F49C930071E /* Pods-HAWAIIAN PANCAKE URANAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAWAIIAN PANCAKE URANAI.release.xcconfig"; path = "Target Support Files/Pods-HAWAIIAN PANCAKE URANAI/Pods-HAWAIIAN PANCAKE URANAI.release.xcconfig"; sourceTree = "<group>"; };
+		D535F983050C0C6950DA914D /* Pods_HAWAIIAN_PANCAKE_URANAITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAWAIIAN_PANCAKE_URANAITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF76549114032D003C2CF36 /* Pods-HAWAIIAN PANCAKE URANAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAWAIIAN PANCAKE URANAI.debug.xcconfig"; path = "Target Support Files/Pods-HAWAIIAN PANCAKE URANAI/Pods-HAWAIIAN PANCAKE URANAI.debug.xcconfig"; sourceTree = "<group>"; };
+		F1BF8B7387C2121C7035E124 /* Pods_HAWAIIAN_PANCAKE_URANAIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAWAIIAN_PANCAKE_URANAIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE21D8C9231BD4E500D75B37 /* HAWAIIAN PANCAKE URANAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HAWAIIAN PANCAKE URANAI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE21D8CC231BD4E500D75B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE21D8CE231BD4E500D75B37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE21D8D1231BD4E500D75B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FE21D8D3231BD4E800D75B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE21D8D3231BD4E800D75B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "HAWAIIAN PANCAKE URANAI/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		FE21D8D6231BD4E800D75B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE21D8D8231BD4E800D75B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE21D8DD231BD4E800D75B37 /* HAWAIIAN PANCAKE URANAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HAWAIIAN PANCAKE URANAITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +73,20 @@
 		FE21D8E8231BD4E800D75B37 /* HAWAIIAN PANCAKE URANAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HAWAIIAN PANCAKE URANAIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE21D8EC231BD4E800D75B37 /* HAWAIIAN_PANCAKE_URANAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAWAIIAN_PANCAKE_URANAIUITests.swift; sourceTree = "<group>"; };
 		FE21D8EE231BD4E800D75B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE21D8FA231BE9BA00D75B37 /* waikiki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waikiki.jpg; sourceTree = SOURCE_ROOT; };
+		FE21D902231E88A100D75B37 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		FE21D904231E902100D75B37 /* plumeria4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plumeria4.png; sourceTree = SOURCE_ROOT; };
+		FE21D905231E902100D75B37 /* plumeria2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plumeria2.png; sourceTree = SOURCE_ROOT; };
+		FE21D906231E902100D75B37 /* plumeria3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plumeria3.png; sourceTree = SOURCE_ROOT; };
+		FE21D90A231E915300D75B37 /* PlumeriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlumeriaViewController.swift; sourceTree = "<group>"; };
+		FE21D90C231E99D300D75B37 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		FE2B0B87232113D100CB5ACA /* Button_Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Custom.swift; sourceTree = "<group>"; };
+		FE538EB5232E59B800E2637B /* Plumeria4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plumeria4.mp4; sourceTree = "<group>"; };
+		FE538EB9232FBC4200E2637B /* TouchEventThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEventThroughView.swift; sourceTree = "<group>"; };
+		FE538EBB232FF0EE00E2637B /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		FE538EBF2330259400E2637B /* Plumeria3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plumeria3.mp4; sourceTree = "<group>"; };
+		FE538EC1233025A000E2637B /* Plumeria2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plumeria2.mp4; sourceTree = "<group>"; };
+		FE9AF71A23338B1F0051E41D /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B14EC036AFDE1B7E21458B5 /* Pods_HAWAIIAN_PANCAKE_URANAI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4EFD0D335A9D27B5D85BB9 /* Pods_HAWAIIAN_PANCAKE_URANAITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +110,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164D595958B88ACF8D6EFCCD /* Pods_HAWAIIAN_PANCAKE_URANAIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47B7DC8E5DFF1E25CCC9D04F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8988A5EE62CD78161B91E826 /* Pods_HAWAIIAN_PANCAKE_URANAI.framework */,
+				D535F983050C0C6950DA914D /* Pods_HAWAIIAN_PANCAKE_URANAITests.framework */,
+				F1BF8B7387C2121C7035E124 /* Pods_HAWAIIAN_PANCAKE_URANAIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6694EA19226CF87B453A112 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFF76549114032D003C2CF36 /* Pods-HAWAIIAN PANCAKE URANAI.debug.xcconfig */,
+				CA03B2533F728F49C930071E /* Pods-HAWAIIAN PANCAKE URANAI.release.xcconfig */,
+				BAC2DFD94DEFC71518DC7EAD /* Pods-HAWAIIAN PANCAKE URANAITests.debug.xcconfig */,
+				49371A99ECB461B9AAA5C304 /* Pods-HAWAIIAN PANCAKE URANAITests.release.xcconfig */,
+				9668063780B992E26B093E28 /* Pods-HAWAIIAN PANCAKE URANAIUITests.debug.xcconfig */,
+				4DE6278298D9B4E63764EA01 /* Pods-HAWAIIAN PANCAKE URANAIUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FE21D8C0231BD4E500D75B37 = {
 			isa = PBXGroup;
 			children = (
+				FE538EC1233025A000E2637B /* Plumeria2.mp4 */,
+				FE538EBF2330259400E2637B /* Plumeria3.mp4 */,
+				FE538EB5232E59B800E2637B /* Plumeria4.mp4 */,
 				FE21D8CB231BD4E500D75B37 /* HAWAIIAN PANCAKE URANAI */,
 				FE21D8E0231BD4E800D75B37 /* HAWAIIAN PANCAKE URANAITests */,
 				FE21D8EB231BD4E800D75B37 /* HAWAIIAN PANCAKE URANAIUITests */,
 				FE21D8CA231BD4E500D75B37 /* Products */,
+				D6694EA19226CF87B453A112 /* Pods */,
+				47B7DC8E5DFF1E25CCC9D04F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +168,20 @@
 		FE21D8CB231BD4E500D75B37 /* HAWAIIAN PANCAKE URANAI */ = {
 			isa = PBXGroup;
 			children = (
+				FE21D905231E902100D75B37 /* plumeria2.png */,
+				FE21D906231E902100D75B37 /* plumeria3.png */,
+				FE21D904231E902100D75B37 /* plumeria4.png */,
 				FE21D8CC231BD4E500D75B37 /* AppDelegate.swift */,
 				FE21D8CE231BD4E500D75B37 /* ViewController.swift */,
+				FE2B0B87232113D100CB5ACA /* Button_Custom.swift */,
+				FE21D8FA231BE9BA00D75B37 /* waikiki.jpg */,
 				FE21D8D0231BD4E500D75B37 /* Main.storyboard */,
+				FE9AF71A23338B1F0051E41D /* Singleton.swift */,
+				FE538EBB232FF0EE00E2637B /* MovieViewController.swift */,
+				FE538EB9232FBC4200E2637B /* TouchEventThroughView.swift */,
+				FE21D90C231E99D300D75B37 /* ResultViewController.swift */,
+				FE21D90A231E915300D75B37 /* PlumeriaViewController.swift */,
+				FE21D902231E88A100D75B37 /* InputViewController.swift */,
 				FE21D8D3231BD4E800D75B37 /* Assets.xcassets */,
 				FE21D8D5231BD4E800D75B37 /* LaunchScreen.storyboard */,
 				FE21D8D8231BD4E800D75B37 /* Info.plist */,
@@ -132,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE21D8F1231BD4E800D75B37 /* Build configuration list for PBXNativeTarget "HAWAIIAN PANCAKE URANAI" */;
 			buildPhases = (
+				F73BDF90788A78498C2C90D7 /* [CP] Check Pods Manifest.lock */,
 				FE21D8C5231BD4E500D75B37 /* Sources */,
 				FE21D8C6231BD4E500D75B37 /* Frameworks */,
 				FE21D8C7231BD4E500D75B37 /* Resources */,
+				C723B26CF7F5DD1FC6AD6D49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE21D8F4231BD4E800D75B37 /* Build configuration list for PBXNativeTarget "HAWAIIAN PANCAKE URANAITests" */;
 			buildPhases = (
+				E4F5FD91FB8083DE57642ACA /* [CP] Check Pods Manifest.lock */,
 				FE21D8D9231BD4E800D75B37 /* Sources */,
 				FE21D8DA231BD4E800D75B37 /* Frameworks */,
 				FE21D8DB231BD4E800D75B37 /* Resources */,
@@ -167,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE21D8F7231BD4E800D75B37 /* Build configuration list for PBXNativeTarget "HAWAIIAN PANCAKE URANAIUITests" */;
 			buildPhases = (
+				4013914B2754CC84AD843EFA /* [CP] Check Pods Manifest.lock */,
 				FE21D8E4231BD4E800D75B37 /* Sources */,
 				FE21D8E5231BD4E800D75B37 /* Frameworks */,
 				FE21D8E6231BD4E800D75B37 /* Resources */,
@@ -200,6 +286,7 @@
 					};
 					FE21D8E7231BD4E800D75B37 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 						TestTargetID = FE21D8C8231BD4E500D75B37;
 					};
 				};
@@ -229,9 +316,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE538EC2233025A000E2637B /* Plumeria2.mp4 in Resources */,
+				FE538EC02330259400E2637B /* Plumeria3.mp4 in Resources */,
+				FE538EB6232E59B800E2637B /* Plumeria4.mp4 in Resources */,
+				FE538EAE232E180C00E2637B /* Assets.xcassets in Resources */,
 				FE21D8D7231BD4E800D75B37 /* LaunchScreen.storyboard in Resources */,
-				FE21D8D4231BD4E800D75B37 /* Assets.xcassets in Resources */,
+				FE21D908231E902100D75B37 /* plumeria2.png in Resources */,
+				FE21D907231E902100D75B37 /* plumeria4.png in Resources */,
 				FE21D8D2231BD4E500D75B37 /* Main.storyboard in Resources */,
+				FE21D909231E902100D75B37 /* plumeria3.png in Resources */,
+				FE21D8FB231BE9BB00D75B37 /* waikiki.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +345,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4013914B2754CC84AD843EFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HAWAIIAN PANCAKE URANAIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C723B26CF7F5DD1FC6AD6D49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HAWAIIAN PANCAKE URANAI/Pods-HAWAIIAN PANCAKE URANAI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HAWAIIAN PANCAKE URANAI/Pods-HAWAIIAN PANCAKE URANAI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HAWAIIAN PANCAKE URANAI/Pods-HAWAIIAN PANCAKE URANAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F5FD91FB8083DE57642ACA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HAWAIIAN PANCAKE URANAITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F73BDF90788A78498C2C90D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HAWAIIAN PANCAKE URANAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE21D8C5231BD4E500D75B37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE2B0B88232113D100CB5ACA /* Button_Custom.swift in Sources */,
+				FE9AF71B23338B1F0051E41D /* Singleton.swift in Sources */,
+				FE21D90D231E99D300D75B37 /* ResultViewController.swift in Sources */,
+				FE21D903231E88A100D75B37 /* InputViewController.swift in Sources */,
+				FE538EBC232FF0EE00E2637B /* MovieViewController.swift in Sources */,
+				FE21D90B231E915300D75B37 /* PlumeriaViewController.swift in Sources */,
 				FE21D8CF231BD4E500D75B37 /* ViewController.swift in Sources */,
 				FE21D8CD231BD4E500D75B37 /* AppDelegate.swift in Sources */,
+				FE538EBA232FBC4200E2637B /* TouchEventThroughView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +501,7 @@
 /* Begin XCBuildConfiguration section */
 		FE21D8EF231BD4E800D75B37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF76549114032D003C2CF36 /* Pods-HAWAIIAN PANCAKE URANAI.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -363,7 +551,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -375,6 +563,7 @@
 		};
 		FE21D8F0231BD4E800D75B37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA03B2533F728F49C930071E /* Pods-HAWAIIAN PANCAKE URANAI.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -418,7 +607,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,15 +619,18 @@
 		};
 		FE21D8F2231BD4E800D75B37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF76549114032D003C2CF36 /* Pods-HAWAIIAN PANCAKE URANAI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Takareinhard;
 				INFOPLIST_FILE = "HAWAIIAN PANCAKE URANAI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "a.HAWAIIAN-PANCAKE-URANAI";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.HAWAIIAN--PANCAKE--URANAI-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,15 +639,18 @@
 		};
 		FE21D8F3231BD4E800D75B37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA03B2533F728F49C930071E /* Pods-HAWAIIAN PANCAKE URANAI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Takareinhard;
 				INFOPLIST_FILE = "HAWAIIAN PANCAKE URANAI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "a.HAWAIIAN-PANCAKE-URANAI";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.HAWAIIAN--PANCAKE--URANAI-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,11 +659,13 @@
 		};
 		FE21D8F5231BD4E800D75B37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF76549114032D003C2CF36 /* Pods-HAWAIIAN PANCAKE URANAI.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "HAWAIIAN PANCAKE URANAITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,11 +681,13 @@
 		};
 		FE21D8F6231BD4E800D75B37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49371A99ECB461B9AAA5C304 /* Pods-HAWAIIAN PANCAKE URANAITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "HAWAIIAN PANCAKE URANAITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -504,10 +703,12 @@
 		};
 		FE21D8F8231BD4E800D75B37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF76549114032D003C2CF36 /* Pods-HAWAIIAN PANCAKE URANAI.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "HAWAIIAN PANCAKE URANAIUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -515,7 +716,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "a.HAWAIIAN-PANCAKE-URANAIUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "HAWAIIAN PANCAKE URANAI";
 			};
@@ -523,10 +724,12 @@
 		};
 		FE21D8F9231BD4E800D75B37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE6278298D9B4E63764EA01 /* Pods-HAWAIIAN PANCAKE URANAIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "HAWAIIAN PANCAKE URANAIUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,7 +737,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "a.HAWAIIAN-PANCAKE-URANAIUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "HAWAIIAN PANCAKE URANAI";
 			};
@@ -550,7 +753,7 @@
 				FE21D8F0231BD4E800D75B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FE21D8F1231BD4E800D75B37 /* Build configuration list for PBXNativeTarget "HAWAIIAN PANCAKE URANAI" */ = {
 			isa = XCConfigurationList;
@@ -559,7 +762,7 @@
 				FE21D8F3231BD4E800D75B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FE21D8F4231BD4E800D75B37 /* Build configuration list for PBXNativeTarget "HAWAIIAN PANCAKE URANAITests" */ = {
 			isa = XCConfigurationList;
@@ -568,7 +771,7 @@
 				FE21D8F6231BD4E800D75B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FE21D8F7231BD4E800D75B37 /* Build configuration list for PBXNativeTarget "HAWAIIAN PANCAKE URANAIUITests" */ = {
 			isa = XCConfigurationList;
@@ -577,7 +780,7 @@
 				FE21D8F9231BD4E800D75B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

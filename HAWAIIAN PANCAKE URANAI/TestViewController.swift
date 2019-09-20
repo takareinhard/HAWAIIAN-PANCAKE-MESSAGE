@@ -10,9 +10,11 @@ import UIKit
 
 class TestViewController: UIViewController {
 
+    @IBOutlet weak var Test: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.Test.image = UIImage(named: "Rainbow")
         // Do any additional setup after loading the view.
     }
     

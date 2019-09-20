@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "55c85209fafe4177832ba5a456f240bf"
+build_time: [1568481342, 116165000]
+inputs:
+  "/Users/hirotatakara/HAWAIIAN PANCAKE URANAI/HAWAIIAN PANCAKE URANAI/Button_Custom.swift": !dirty [1567685687, 982205121]
+  "/Users/hirotatakara/HAWAIIAN PANCAKE URANAI/HAWAIIAN PANCAKE URANAI/ResultViewController.swift": !dirty [1568480113, 781622569]
+  "/Users/hirotatakara/HAWAIIAN PANCAKE URANAI/HAWAIIAN PANCAKE URANAI/TestViewController.swift": !dirty [1567953596, 805552767]
+  "/Users/hirotatakara/HAWAIIAN PANCAKE URANAI/HAWAIIAN PANCAKE URANAI/InputViewController.swift": !dirty [1567773052, 351990471]
+  "/Users/hirotatakara/HAWAIIAN PANCAKE URANAI/HAWAIIAN PANCAKE URANAI/PlumeriaViewController.swift": !dirty [1567858786, 158493420]
+  "/Users/hirotatakara/HAWAIIAN PANCAKE URANAI/HAWAIIAN PANCAKE URANAI/ViewController.swift": !dirty [1567685688, 8037517]
+  "/Users/hirotatakara/HAWAIIAN PANCAKE URANAI/HAWAIIAN PANCAKE URANAI/AppDelegate.swift": !dirty [1567333733, 609245913]

@@ -1,0 +1,616 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ResultViewController"
+provides-nominal:
+- "23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC"
+provides-member:
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", ""]
+provides-dynamic-lookup:
+- "PancakePhoto"
+- "Pancakename"
+- "Rainbow"
+- "Shopname"
+- "TitleLabel"
+- "contentLabel"
+- "itemLabel"
+- "message"
+- "moneyLabel"
+- "nameLabel"
+- "viewDidLoad"
+depends-top-level:
+- !private "+"
+- !private "Alamofire"
+- !private "AssignmentPrecedence"
+- !private "Date"
+- !private "DateFormatter"
+- !private "Locale"
+- "ResultViewController"
+- "String"
+- "StringLiteralType"
+- !private "UIImage"
+- "UIImageView"
+- "UILabel"
+- "UITextView"
+- "UIViewController"
+- !private "arc4random_uniform"
+- !private "~="
+depends-member:
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Alamofire"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "Locale"]
+- !private ["s7CVarArgP", "PancakePhoto"]
+- !private ["s7CVarArgP", "Pancakename"]
+- !private ["s7CVarArgP", "Shopname"]
+- !private ["s7CVarArgP", "TitleLabel"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "arc4random_uniform"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "message"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "nameLabel"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "Locale"]
+- !private ["s28CustomDebugStringConvertibleP", "PancakePhoto"]
+- !private ["s28CustomDebugStringConvertibleP", "Pancakename"]
+- !private ["s28CustomDebugStringConvertibleP", "Shopname"]
+- !private ["s28CustomDebugStringConvertibleP", "TitleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "arc4random_uniform"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "message"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "nameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "image"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "Locale"]
+- !private ["s23CustomStringConvertibleP", "PancakePhoto"]
+- !private ["s23CustomStringConvertibleP", "Pancakename"]
+- !private ["s23CustomStringConvertibleP", "Shopname"]
+- !private ["s23CustomStringConvertibleP", "TitleLabel"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "arc4random_uniform"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "message"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "nameLabel"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "image"]
+- !private ["Se", "init"]
+- !private ["Se", "text"]
+- !private ["SE", "image"]
+- !private ["SE", "init"]
+- !private ["SE", "text"]
+- !private ["SQ", "Alamofire"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "DateFormatter"]
+- !private ["SQ", "Locale"]
+- !private ["SQ", "PancakePhoto"]
+- !private ["SQ", "Pancakename"]
+- !private ["SQ", "Shopname"]
+- !private ["SQ", "TitleLabel"]
+- !private ["SQ", "UIImage"]
+- ["SQ", ""]
+- !private ["SQ", "arc4random_uniform"]
+- !private ["SQ", "dateFormat"]
+- !private ["SQ", "image"]
+- !private ["SQ", "init"]
+- !private ["SQ", "message"]
+- !private ["SQ", "name"]
+- !private ["SQ", "nameLabel"]
+- !private ["SQ", "string"]
+- !private ["SQ", "text"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "image"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "Alamofire"]
+- !private ["SH", "Date"]
+- !private ["SH", "DateFormatter"]
+- !private ["SH", "Locale"]
+- !private ["SH", "PancakePhoto"]
+- !private ["SH", "Pancakename"]
+- !private ["SH", "Shopname"]
+- !private ["SH", "TitleLabel"]
+- !private ["SH", "UIImage"]
+- ["SH", ""]
+- !private ["SH", "arc4random_uniform"]
+- !private ["SH", "dateFormat"]
+- !private ["SH", "image"]
+- !private ["SH", "init"]
+- !private ["SH", "message"]
+- !private ["SH", "name"]
+- !private ["SH", "nameLabel"]
+- !private ["SH", "string"]
+- !private ["SH", "text"]
+- !private ["SH", "viewDidLoad"]
+- !private ["10Foundation6LocaleV", "init"]
+- !private ["So8NSCodingP", "Alamofire"]
+- !private ["So8NSCodingP", "Date"]
+- !private ["So8NSCodingP", "DateFormatter"]
+- !private ["So8NSCodingP", "Locale"]
+- !private ["So8NSCodingP", "PancakePhoto"]
+- !private ["So8NSCodingP", "Pancakename"]
+- !private ["So8NSCodingP", "Shopname"]
+- !private ["So8NSCodingP", "TitleLabel"]
+- !private ["So8NSCodingP", "UIImage"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "arc4random_uniform"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "message"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "nameLabel"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So26NSExtensionRequestHandlingP", "Alamofire"]
+- !private ["So26NSExtensionRequestHandlingP", "Date"]
+- !private ["So26NSExtensionRequestHandlingP", "DateFormatter"]
+- !private ["So26NSExtensionRequestHandlingP", "Locale"]
+- !private ["So26NSExtensionRequestHandlingP", "PancakePhoto"]
+- !private ["So26NSExtensionRequestHandlingP", "Pancakename"]
+- !private ["So26NSExtensionRequestHandlingP", "Shopname"]
+- !private ["So26NSExtensionRequestHandlingP", "TitleLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "arc4random_uniform"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "message"]
+- !private ["So26NSExtensionRequestHandlingP", "name"]
+- !private ["So26NSExtensionRequestHandlingP", "nameLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "Alamofire"]
+- !private ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "DateFormatter"]
+- !private ["So8NSObjectC", "Locale"]
+- ["So8NSObjectC", "PancakePhoto"]
+- ["So8NSObjectC", "Pancakename"]
+- ["So8NSObjectC", "Rainbow"]
+- ["So8NSObjectC", "Shopname"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TitleLabel"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITextView"]
+- !private ["So8NSObjectC", "arc4random_uniform"]
+- ["So8NSObjectC", "contentLabel"]
+- !private ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "gender"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "itemLabel"]
+- ["So8NSObjectC", "message"]
+- ["So8NSObjectC", "moneyLabel"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "nameLabel"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "Alamofire"]
+- !private ["So8NSObjectP", "Date"]
+- !private ["So8NSObjectP", "DateFormatter"]
+- !private ["So8NSObjectP", "Locale"]
+- !private ["So8NSObjectP", "PancakePhoto"]
+- !private ["So8NSObjectP", "Pancakename"]
+- !private ["So8NSObjectP", "Shopname"]
+- !private ["So8NSObjectP", "TitleLabel"]
+- !private ["So8NSObjectP", "UIImage"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "arc4random_uniform"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "message"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "nameLabel"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sq", "image"]
+- !private ["Sq", "text"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "Alamofire"]
+- !private ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "Date"]
+- !private ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "DateFormatter"]
+- !private ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "Locale"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "PancakePhoto"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "Pancakename"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "Rainbow"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "Shopname"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "String"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "TitleLabel"]
+- !private ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "UIImage"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "UIImageView"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "UILabel"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "UITextView"]
+- !private ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "arc4random_uniform"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "contentLabel"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "deinit"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "gender"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "init"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "itemLabel"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "message"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "moneyLabel"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "name"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "nameLabel"]
+- ["23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC", "viewDidLoad"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Alamofire"]
+- !private ["So21UIAppearanceContainerP", "Date"]
+- !private ["So21UIAppearanceContainerP", "DateFormatter"]
+- !private ["So21UIAppearanceContainerP", "Locale"]
+- !private ["So21UIAppearanceContainerP", "PancakePhoto"]
+- !private ["So21UIAppearanceContainerP", "Pancakename"]
+- !private ["So21UIAppearanceContainerP", "Shopname"]
+- !private ["So21UIAppearanceContainerP", "TitleLabel"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "arc4random_uniform"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "message"]
+- !private ["So21UIAppearanceContainerP", "name"]
+- !private ["So21UIAppearanceContainerP", "nameLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "Alamofire"]
+- !private ["So18UIContentContainerP", "Date"]
+- !private ["So18UIContentContainerP", "DateFormatter"]
+- !private ["So18UIContentContainerP", "Locale"]
+- !private ["So18UIContentContainerP", "PancakePhoto"]
+- !private ["So18UIContentContainerP", "Pancakename"]
+- !private ["So18UIContentContainerP", "Shopname"]
+- !private ["So18UIContentContainerP", "TitleLabel"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "arc4random_uniform"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "message"]
+- !private ["So18UIContentContainerP", "name"]
+- !private ["So18UIContentContainerP", "nameLabel"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Alamofire"]
+- !private ["So18UIFocusEnvironmentP", "Date"]
+- !private ["So18UIFocusEnvironmentP", "DateFormatter"]
+- !private ["So18UIFocusEnvironmentP", "Locale"]
+- !private ["So18UIFocusEnvironmentP", "PancakePhoto"]
+- !private ["So18UIFocusEnvironmentP", "Pancakename"]
+- !private ["So18UIFocusEnvironmentP", "Shopname"]
+- !private ["So18UIFocusEnvironmentP", "TitleLabel"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "arc4random_uniform"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "message"]
+- !private ["So18UIFocusEnvironmentP", "name"]
+- !private ["So18UIFocusEnvironmentP", "nameLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So30UIFocusItemScrollableContainerP", "text"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Alamofire"]
+- !private ["So30UIPasteConfigurationSupportingP", "Date"]
+- !private ["So30UIPasteConfigurationSupportingP", "DateFormatter"]
+- !private ["So30UIPasteConfigurationSupportingP", "Locale"]
+- !private ["So30UIPasteConfigurationSupportingP", "PancakePhoto"]
+- !private ["So30UIPasteConfigurationSupportingP", "Pancakename"]
+- !private ["So30UIPasteConfigurationSupportingP", "Shopname"]
+- !private ["So30UIPasteConfigurationSupportingP", "TitleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "arc4random_uniform"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "message"]
+- !private ["So30UIPasteConfigurationSupportingP", "name"]
+- !private ["So30UIPasteConfigurationSupportingP", "nameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Alamofire"]
+- !private ["So11UIResponderC", "Date"]
+- !private ["So11UIResponderC", "DateFormatter"]
+- !private ["So11UIResponderC", "Locale"]
+- ["So11UIResponderC", "PancakePhoto"]
+- ["So11UIResponderC", "Pancakename"]
+- ["So11UIResponderC", "Rainbow"]
+- ["So11UIResponderC", "Shopname"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "TitleLabel"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITextView"]
+- !private ["So11UIResponderC", "arc4random_uniform"]
+- ["So11UIResponderC", "contentLabel"]
+- ["So11UIResponderC", "gender"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "itemLabel"]
+- ["So11UIResponderC", "message"]
+- ["So11UIResponderC", "moneyLabel"]
+- ["So11UIResponderC", "name"]
+- ["So11UIResponderC", "nameLabel"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Alamofire"]
+- !private ["So30UIResponderStandardEditActionsP", "Date"]
+- !private ["So30UIResponderStandardEditActionsP", "DateFormatter"]
+- !private ["So30UIResponderStandardEditActionsP", "Locale"]
+- !private ["So30UIResponderStandardEditActionsP", "PancakePhoto"]
+- !private ["So30UIResponderStandardEditActionsP", "Pancakename"]
+- !private ["So30UIResponderStandardEditActionsP", "Shopname"]
+- !private ["So30UIResponderStandardEditActionsP", "TitleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "arc4random_uniform"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "message"]
+- !private ["So30UIResponderStandardEditActionsP", "name"]
+- !private ["So30UIResponderStandardEditActionsP", "nameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So12UIScrollViewC", "text"]
+- !private ["So16UIStateRestoringP", "Alamofire"]
+- !private ["So16UIStateRestoringP", "Date"]
+- !private ["So16UIStateRestoringP", "DateFormatter"]
+- !private ["So16UIStateRestoringP", "Locale"]
+- !private ["So16UIStateRestoringP", "PancakePhoto"]
+- !private ["So16UIStateRestoringP", "Pancakename"]
+- !private ["So16UIStateRestoringP", "Shopname"]
+- !private ["So16UIStateRestoringP", "TitleLabel"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "arc4random_uniform"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "message"]
+- !private ["So16UIStateRestoringP", "name"]
+- !private ["So16UIStateRestoringP", "nameLabel"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So10UITextViewC", "text"]
+- !private ["So18UITraitEnvironmentP", "Alamofire"]
+- !private ["So18UITraitEnvironmentP", "Date"]
+- !private ["So18UITraitEnvironmentP", "DateFormatter"]
+- !private ["So18UITraitEnvironmentP", "Locale"]
+- !private ["So18UITraitEnvironmentP", "PancakePhoto"]
+- !private ["So18UITraitEnvironmentP", "Pancakename"]
+- !private ["So18UITraitEnvironmentP", "Shopname"]
+- !private ["So18UITraitEnvironmentP", "TitleLabel"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "arc4random_uniform"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "message"]
+- !private ["So18UITraitEnvironmentP", "name"]
+- !private ["So18UITraitEnvironmentP", "nameLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Alamofire"]
+- !private ["So23UIUserActivityRestoringP", "Date"]
+- !private ["So23UIUserActivityRestoringP", "DateFormatter"]
+- !private ["So23UIUserActivityRestoringP", "Locale"]
+- !private ["So23UIUserActivityRestoringP", "PancakePhoto"]
+- !private ["So23UIUserActivityRestoringP", "Pancakename"]
+- !private ["So23UIUserActivityRestoringP", "Shopname"]
+- !private ["So23UIUserActivityRestoringP", "TitleLabel"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "arc4random_uniform"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "message"]
+- !private ["So23UIUserActivityRestoringP", "name"]
+- !private ["So23UIUserActivityRestoringP", "nameLabel"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "Alamofire"]
+- !private ["So16UIViewControllerC", "Date"]
+- !private ["So16UIViewControllerC", "DateFormatter"]
+- !private ["So16UIViewControllerC", "Locale"]
+- ["So16UIViewControllerC", "PancakePhoto"]
+- ["So16UIViewControllerC", "Pancakename"]
+- ["So16UIViewControllerC", "Rainbow"]
+- ["So16UIViewControllerC", "Shopname"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "TitleLabel"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITextView"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "arc4random_uniform"]
+- ["So16UIViewControllerC", "contentLabel"]
+- ["So16UIViewControllerC", "gender"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "itemLabel"]
+- ["So16UIViewControllerC", "message"]
+- ["So16UIViewControllerC", "moneyLabel"]
+- ["So16UIViewControllerC", "name"]
+- ["So16UIViewControllerC", "nameLabel"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PancakePhoto"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Pancakename"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Shopname"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TitleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arc4random_uniform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "message"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "image"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "So11NSFormatterC"
+- "SH"
+- !private "10Foundation6LocaleV"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "10Foundation20ReferenceConvertibleP"
+- "23HAWAIIAN_PANCAKE_URANAI20ResultViewControllerC"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So10UIKeyInputP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So10UITextViewC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6da06a4e1da935859d0624ea935d9f2d"

@@ -7,15 +7,49 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class AvViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
+    var name:String? = ""
+    var gender:String? = ""
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        //次のページの情報を取得する
+        //次のページはOmikuziViewController Classなので、それに合わせてas!でダウンキャストする
+        let ResultViewController = segue.destination as! ResultViewController
+        //nilチェックが通ったら、次のページのnameに、値を代入する
+        ResultViewController.name = name
+    }
+    
+//    override func viewDidAppear(_ animated: Bool) {
+//        super.viewDidAppear(animated)
+//        playVideo()
+//    }
+//    
+//    private func playVideo() {
+//        
+//    
+//        guard let path = Bundle.main.path(forResource: "Plumeria4", ofType:"mov") else {
+//            debugPrint("Plumeria4.mov not found")
+//            return
+//        }
+//        
+//        let player = AVPlayer(url: URL(fileURLWithPath: path))
+//        let playerController = AVPlayerViewController()
+//        playerController.player = player
+//        present(playerController, animated: true) {
+//            player.play()
+//        
+//        }
+//    }
+}
+
 
     /*
     // MARK: - Navigation
@@ -27,4 +61,3 @@ class AvViewController: UIViewController {
     }
     */
 
-}

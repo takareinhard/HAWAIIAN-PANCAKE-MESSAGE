@@ -9,12 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let frame = CGRect(x: 10, y: 450, width: 300, height: 50)
+        let simpleButton = SimpleButton(frame: frame)
+        simpleButton.setTitle("占う！", for: UIControl.State.normal)
+        simpleButton.backgroundColor = UIColor(red: 0.0, green: 0.502, blue: 1.0, alpha: 1.0)
+        simpleButton.addTarget(self, action: #selector(self.nextView(_:)), for: UIControl.Event.touchUpInside)
+        self.view.addSubview(simpleButton)
+    }
+    
+    @objc func nextView(_ sender: UIButton) {
+        let InputViewController = self.storyboard?.instantiateViewController(withIdentifier: "next") as! InputViewController
+        self.present(InputViewController, animated: true, completion: nil)
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
 
+
+        // Do any additional setup after loading the view.
+    }
+    
 }
-

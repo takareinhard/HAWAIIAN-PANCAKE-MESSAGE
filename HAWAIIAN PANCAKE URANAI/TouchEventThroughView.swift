@@ -9,13 +9,18 @@
 import UIKit
 
 class TouchEventThroughView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    // 上に載せたボタンのCGRect
+    var rect_topButton : CGRect?
+    
+    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+        
+        // 上のボタンの位置だったら透過させない
+        if (rect_topButton!.contains(point)) {
+            return true
+        }
+        
+        // それ以外は透過させる
+        return false
     }
-    */
-
 }
