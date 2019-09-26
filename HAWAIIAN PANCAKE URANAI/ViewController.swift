@@ -9,11 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        let frame = CGRect(x: 10, y: 450, width: 300, height: 50)
+        let frame = CGRect(x: 0, y: 0, width: 300, height: 50)
         let simpleButton = SimpleButton(frame: frame)
+        
+        simpleButton.layer.position = CGPoint(x: self.view.frame.width/2, y:self.view.frame.height * 3/4)
         simpleButton.setTitle("占う！", for: UIControl.State.normal)
         simpleButton.backgroundColor = UIColor(red: 0.0, green: 0.502, blue: 1.0, alpha: 1.0)
         simpleButton.addTarget(self, action: #selector(self.nextView(_:)), for: UIControl.Event.touchUpInside)
